@@ -1,0 +1,68 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+.page {
+    width: 400px;
+    box-sizing: content-box;
+    height:auto;
+    position: absolute;
+    display: none;
+    left:50%;
+    top: 200px;
+    margin-left: -200px;
+    text-align: center;   
+}
+.page p {
+    font-size: 50px;
+    font-style: bold;
+    margin-bottom: 40px;
+}
+.page a{
+ width: 50px;
+ height: 30px;
+ text-decoration: none;
+ color: white;
+ background-color: #000;
+ padding:5px 10px 5px 10px;
+ border: 1px solid black;
+ border-radius: 100px;
+ 
+}
+.active {
+    display: block;
+}
+.find-git{
+    width: 80px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border: 5px solid black;
+    padding: 3px 10px 10px 10px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.git-name{
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+}
+.git-info{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+.git{
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.error p{
+    font-size: 40px;
+    
+}
